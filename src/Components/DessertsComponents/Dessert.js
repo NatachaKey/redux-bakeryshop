@@ -8,7 +8,7 @@ const Dessert = ({dessert})=> {
     const dispatch= useDispatch();
     return(<div>
         <br/>
-        <img src={`./${dessert.img}.jpg`} alt="dessertImage" width="400px"/>
+        <img className="imgSmallDevice" src={`./${dessert.img}.jpg`} alt="dessertImage" width="400px"/>
         <h3>{dessert.name}</h3>
         <p>${dessert.price}</p>
         <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>

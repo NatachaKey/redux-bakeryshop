@@ -1,8 +1,17 @@
+import React from 'react';
+import { 
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link
+} from 'react-router-dom';
+import About from './About';
+
 import './App.css';
-import Cart from './Components/Cart/Cart';
-import Desserts from './Components/DessertsComponents/Desserts';
-import AllCategories from './Components/Filter/AllCategories';
-import Particless from './Particless';
+import Contacts from './Contacts';
+import Shop from './Shop';
+
+
 
 
 
@@ -10,19 +19,28 @@ function App() {
 
   
   return (
-  
-    <div className="App">
-      <Particless/> 
-<div className="block">
-    <AllCategories/>
-     <Desserts /> 
-</div>      
-    <div className="block">
-   <Cart/>
-    </div>
-    
-    </div>
+  <Router>
+<nav>
+    <Link className='linkStyle' to="/About">About</Link>
+    <Link className='linkStyle' to="/Shop">Shop</Link>
+    <Link className='linkStyle' to="/Contacts">Contacts</Link>
+</nav>
+
+
+
+
+    <Routes>
+        <Route path='/About' element={<About/>} />
+        <Route path='/Shop' element={<Shop/>} />
+        <Route path='/Contacts' element={<Contacts/>} />
+    </Routes>
+
+ </Router>
+
   );
 }
 
 export default App;
+
+
+

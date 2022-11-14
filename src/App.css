@@ -6,7 +6,61 @@ body {
 .particles {
    z-index: -1;
 }
+.background-video {
+  position: absolute;
+  object-fit: cover; 
+  width:100vw;
+  height:100vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
 
+nav{
+  display: flex;
+ 
+  justify-content: space-around;
+  
+}
+
+.par{
+  z-index: 10;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  color: rgb(78, 56, 56);
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-size: 28px; 
+}
+
+.italic{
+font-style: italic;
+}
+
+.aboutLines{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 140px;
+  text-shadow: 2px 1px #c26c6c;
+}
+.linkStyle{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  font-size: 45px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bolder;
+  text-shadow: 1px 1px #c26c6c;
+}
+
+.linkStyle:hover{
+  color: #94526e;
+}
 .block {
 
   background-color: rgba(253, 218, 226, 0.5);
@@ -78,4 +132,36 @@ button{
   to {
     transform: rotate(360deg);
   }
+}
+@media all and (max-width:800px){
+  .par{
+    
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .linkStyle{
+    font-size: 34px;
+  }
+  .imgSmallDevice{
+    width: 200px;
+      }
+}
+
+@media all and (max-width:500px){
+  .par{
+    
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 15px;
+  }
+  .linkStyle{
+    font-size: 30px;
+  }
+  .imgSmallDevice{
+width: 100px;
+  }
+  
 }
