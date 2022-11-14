@@ -2,14 +2,19 @@ import './App.css';
 import Cart from './Components/Cart/Cart';
 import Desserts from './Components/DessertsComponents/Desserts';
 import AllCategories from './Components/Filter/AllCategories';
+import Particless from './Particless';
+
 
 
 function App() {
+
+  
   return (
+  
     <div className="App">
-    
+      <Particless/> 
 <div className="block">
-     <AllCategories/>
+    <AllCategories/>
      <Desserts /> 
 </div>      
     <div className="block">

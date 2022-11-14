@@ -3,7 +3,9 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-
+.particles {
+   z-index: -1;
+}
 
 .block {
 
