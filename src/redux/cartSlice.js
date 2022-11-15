@@ -21,6 +21,27 @@ export const cartSlice = createSlice({
                 cartItem => cartItem.id !== action.payload.cartItemId
             )
         },
+              
+        
+        /* 
+          updateQuantity: (state, action) => {
+            const newCart = [];
+            
+            state.cartItems.forEach(item => {
+                if (item.dessertId === action.payload.dessert.id) {
+                    let newQuantity = item.quantity + action.payload.quantity;
+                    let totalSum = item.price * newQuantity;
+                    const changeCart = {...item, quantity: newQuantity, totalPrice: totalSum };
+                    newCart.push(changeCart);
+                } else {
+                    newCart.push(item);
+                }
+            })
+            state.cartItems = newCart;
+        },
+        */
+        
+        
         clearCart: state => {
             state.cartItems = []
         }
