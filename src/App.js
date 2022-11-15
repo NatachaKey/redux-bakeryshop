@@ -20,11 +20,12 @@ function App() {
   
   return (
       <About/>
-  <Router>
+      
+   <Router>
 <nav>
-      <Link className='linkStyle' to="/About">About</Link>
-      <Link className='linkStyle' to="/Shop">Shop</Link>
-       <Link className='linkStyle' to="/Contacts">Contacts</Link>
+    <Link className='linkStyle' to="/About">About</Link>
+    <Link className='linkStyle' to="/Shop">Shop</Link>
+    <Link className='linkStyle' to="/Contacts">Contacts</Link>
 </nav>
 
 
@@ -37,7 +38,6 @@ function App() {
     </Routes>
 
  </Router>
-
   );
 }
 
