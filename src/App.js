@@ -12,17 +12,12 @@ import Contacts from './Contacts';
 import Shop from './Shop';
 
 
-
-
-
 function App() {
-
   
   return (     
- 
       
    <Router>
-      <Shop/> 
+   
 <nav>
     <Link className='linkStyle' to="/About">About</Link>
     <Link className='linkStyle' to="/Shop">Shop</Link>
