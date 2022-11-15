@@ -19,6 +19,7 @@ function App() {
 
   
   return (
+      <div>
       <About/>
       
    <Router>
@@ -38,6 +39,8 @@ function App() {
     </Routes>
 
  </Router>
+
+</div>
   );
 }
 
