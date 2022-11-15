@@ -18,9 +18,8 @@ import Shop from './Shop';
 function App() {
 
   
-  return (
-      <div>
-      <About/>
+  return (     
+  <Shop/>
       
    <Router>
 <nav>
@@ -40,7 +39,7 @@ function App() {
 
  </Router>
 
-</div>
+
   );
 }
 
