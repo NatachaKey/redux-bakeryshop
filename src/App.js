@@ -19,11 +19,11 @@ function App() {
 
   
   return (
-      <Shop/>
+      <About/>
   <Router>
 <nav>
-     <Link className='linkStyle' to="/">Shop</Link>
       <Link className='linkStyle' to="/About">About</Link>
+      <Link className='linkStyle' to="/Shop">Shop</Link>
        <Link className='linkStyle' to="/Contacts">Contacts</Link>
 </nav>
 
@@ -31,8 +31,8 @@ function App() {
 
 
     <Routes>
-        <Route path='/' element={<Shop/>} />
         <Route path='/About' element={<About/>} />
+        <Route path='/Shop' element={<Shop/>} />
         <Route path='/Contacts' element={<Contacts/>} />
     </Routes>
 
