@@ -1,4 +1,4 @@
-import video from './Video0.mp4';
+import video from './VideoOne.mp4';
 const About = ()=>{
     return(
     
