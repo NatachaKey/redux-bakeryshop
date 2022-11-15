@@ -19,9 +19,10 @@ function App() {
 
   
   return (     
-  <Shop/>
+ 
       
    <Router>
+      <Shop/> 
 <nav>
     <Link className='linkStyle' to="/About">About</Link>
     <Link className='linkStyle' to="/Shop">Shop</Link>
