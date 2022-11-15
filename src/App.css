@@ -135,17 +135,18 @@ button{
 }
 @media all and (max-width:800px){
   .par{
-    
     color: #fff;
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 20px;
   }
+  
   .linkStyle{
     font-size: 34px;
   }
+  
   .imgSmallDevice{
-    width: 200px;
+    width: 50%;
       }
 }
 
@@ -153,8 +154,12 @@ button{
   button{
     color: #000000;
   }
+  
+  h1{
+    font-size: 20px;
+  }
+  
   .par{
-    
     color: #fff;
     text-transform: uppercase;
     font-weight: bolder;
