@@ -15,11 +15,11 @@ import Shop from './Shop';
 function App() {
   
   return (     
-      <Shop/>
+     
    <Router>
    
 <nav>
-    <Link className='linkStyle' to="/About">About</Link>
+    <Link className='linkStyle' to="/">About</Link>
     <Link className='linkStyle' to="/Shop">Shop</Link>
     <Link className='linkStyle' to="/Contacts">Contacts</Link>
 </nav>
@@ -28,7 +28,7 @@ function App() {
 
 
     <Routes>
-        <Route path='/About' element={<About/>} />
+        <Route path='/' element={<About/>} />
         <Route path='/Shop' element={<Shop/>} />
         <Route path='/Contacts' element={<Contacts/>} />
     </Routes>
