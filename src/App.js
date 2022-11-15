@@ -19,6 +19,7 @@ function App() {
 
   
   return (
+      <Shop/>
   <Router>
 <nav>
      <Link className='linkStyle' to="/">Shop</Link>
