@@ -17,7 +17,7 @@ function App() {
   return (     
      
    <Router>
-   
+   <Shop/>
 <nav>
     <Link className='linkStyle' to="/">About</Link>
     <Link className='linkStyle' to="/Shop">Shop</Link>
