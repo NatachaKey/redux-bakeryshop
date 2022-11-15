@@ -19,7 +19,7 @@ const CartItem = ({cartItem})=> {
 
 export default CartItem;
 
-/*
+/* ---> 
 import { useDispatch, useSelector } from 'react-redux';
 import { useState } from 'react';
 import dataDesserts from '../../data/dataDesserts';
@@ -43,7 +43,6 @@ const CartItem = ({cartItem})=> {
         setQuantity(1)
     }
 }
-
     return(
     <div>
     <div>
@@ -60,6 +59,5 @@ const CartItem = ({cartItem})=> {
     
     )
 }
-
 export default CartItem;
 */
