@@ -55,7 +55,7 @@ const CartItem = ({cartItem})=> {
          </p>  
     </div>
     <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
-     {/* <button onClick={addToCart}>click</button>  */}
+      <button onClick={addToCart}>click</button> 
     </div>
     
     )
