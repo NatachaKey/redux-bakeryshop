@@ -21,17 +21,17 @@ function App() {
   return (
   <Router>
 <nav>
-    <Link className='linkStyle' to="/About">About</Link>
-    <Link className='linkStyle' to="/Shop">Shop</Link>
-    <Link className='linkStyle' to="/Contacts">Contacts</Link>
+     <Link className='linkStyle' to="/Shop">Shop</Link>
+      <Link className='linkStyle' to="/About">About</Link>
+       <Link className='linkStyle' to="/Contacts">Contacts</Link>
 </nav>
 
 
 
 
     <Routes>
-        <Route path='/About' element={<About/>} />
         <Route path='/Shop' element={<Shop/>} />
+        <Route path='/About' element={<About/>} />
         <Route path='/Contacts' element={<Contacts/>} />
     </Routes>
 
