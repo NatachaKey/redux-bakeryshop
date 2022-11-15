@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { Fragment } from 'react';
-
 import { 
     BrowserRouter as Router,
     Routes,
@@ -18,8 +16,7 @@ import Shop from './Shop';
 function App() {
   
   return (     
-      <Fragment>
-<About/>
+    
    <Router>
   
 <nav>
@@ -36,7 +33,7 @@ function App() {
 
  </Router>
 
-  </Fragment>
+ 
 
   );
 }
