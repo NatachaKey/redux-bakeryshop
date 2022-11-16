@@ -24,7 +24,7 @@ function App() {
     <Link className='linkStyle' to="/Shop">Shop</Link>
     <Link className='linkStyle' to="/Contacts">Contacts</Link>
 </nav>
-</>
+
       
     <Routes>
         <Route path='/' element={<About/>} />
