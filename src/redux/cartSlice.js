@@ -8,15 +8,13 @@ export const cartSlice = createSlice({
     reducers: {
         addItemToCart: (state, action) =>{
             
-            /*const timeId = new Date().getTime();*/
+            const timeId = new Date().getTime();
             
             state.cartItems.push({
-                /*id:timeId,*/
-                id:action.payload.dessert.id,
+                id:timeId,
                 dessertId: action.payload.dessert.id,
                 quantity: action.payload.quantity,
-                price: action.payload.dessert.price,
-                totalPrice: action.payload.quantity* action.payload.dessert.price
+                 totalPrice: action.payload.quantity* action.payload.dessert.price
             })
         },
         
